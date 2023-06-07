@@ -7,6 +7,7 @@ class Solution:
                 startList[j] += sum(oldList[:j])
         return sum(startList)
 
+        #Another solution
         #use Combinations with Repetition (n+r-1)c(r) 
         #n = number of elements
         #r = size of combination
