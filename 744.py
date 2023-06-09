@@ -1,6 +1,6 @@
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
-        #use binary-search
+        #use binary search
         left = 0
         right = len(letters) - 1
 
